@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Center(child: Text('hey ${data?['username']} ')),
+          Center(child: Text('hey ${data?['username']} 😀')),
           FloatingActionButton(
             child: Icon(size: 35, Icons.camera),
             onPressed: accessCamera,
